@@ -9,6 +9,8 @@
 ### master_node.sh
 #### if you want to install specific version of k3s
 ```bash
+chmod +x master_node.sh
+
 ./master_node.sh "${k3s version}"
 ```
 **Note**
@@ -17,6 +19,8 @@ Please check k3s release available version
 
 #### if you want to install latest version of k3s THEN JUST RUN
 ```bash
+chmod +x master_node.sh
+
 ./master_node.sh
 ```
 
@@ -26,11 +30,15 @@ k3s master's url(like, https://xxx.xxx.xxx:6443) & k3s master's token are requir
 
 #### if you want to install specific version of k3s
 ```bash
+chmod +x worker_node.sh
+
 ./worker_node.sh "${k3s url}" "${k3s token}" "${k3s version}"
 ```
 
 #### if you want to install latest version of k3s
 ```bash
+chmod +x worker_node.sh
+
 ./worker_node.sh "${k3s url}" "${k3s token}"
 ```
 **Note**
