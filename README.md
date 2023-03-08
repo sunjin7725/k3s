@@ -1,4 +1,5 @@
 # k3s installation bash
+![k3s](k3s.png)
 - I'm setted up `--disable traefik` option.
 - So, if you want to enable this option, you have to modify master_node.sh & worker_node.sh in this repository.
 - And, if you want to disable option others case, you also have to modify shell script in this repository.
